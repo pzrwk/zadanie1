@@ -26,4 +26,24 @@ https://github.com/pzrwk/zadanie1/blob/main/Dockerfile
 4. docker history zad1:v0.1
 ```
 
-![Wynik dzialania strony](https://imgur.com/JW5G6JL)
+## 4. Użyte komendy
+
+```
+1. sudo apt install qemu-user-static
+```
+
+```
+2. docker buildx create --name zadanie1
+```
+
+```
+3. docker buildx use zadanie1
+```
+
+```
+4. docker buildx inspect --bootstrap
+```
+
+```
+5. docker buildx build -t piotrpozarowszczyk1/zad1:sv --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
+```
