@@ -56,6 +56,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ghcr.io/pzrwk/zad1:dod1_2
-          cache-from: type=registry, ref=ghcr.io/pzrwk/zad1:dod1_2
-          cache-to: type=registry,ref=ghcr.io/pzrwk/zad1:dod1_2,mode=max
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
       
