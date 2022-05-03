@@ -57,5 +57,5 @@ jobs:
           push: true
           tags: ghcr.io/pzrwk/zad1:dod1_2
           cache-from: type=registry, ref=ghcr.io/pzrwk/zad1:dod1_2
-          cache-to: type=inline
+          cache-to: type=registry,ref=ghcr.io/pzrwk/zad1:dod1_2,mode=max
       
