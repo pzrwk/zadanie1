@@ -57,9 +57,4 @@ jobs:
           tags: piotrpozarowszczyk1/zad1:dod1
           cache-from: type=registry, ref=piotrpozarowszczyk1/zad1:dod1
           cache-to: type=inline
-          
-      
-          
-          
-          
-          
+        
