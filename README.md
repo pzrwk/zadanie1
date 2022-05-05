@@ -47,3 +47,8 @@ https://github.com/pzrwk/zadanie1/blob/main/Dockerfile
 ```
 5. docker buildx build -t piotrpozarowszczyk1/zad1:sv --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --push .
 ```
+
+# DODATEK 1
+
+https://github.com/pzrwk/zadanie1/tree/main/.github/workflows/main.yml
+https://github.com/pzrwk/zadanie1/blob/main/.github/workflows/dod1_2.yml
